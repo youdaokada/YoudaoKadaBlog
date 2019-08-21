@@ -79,4 +79,4 @@ theme: pure
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/youdaokada/YoudaoKada.github.io.git
+  repo: https://github.com/youdaokada/YoudaoKada.github.io
