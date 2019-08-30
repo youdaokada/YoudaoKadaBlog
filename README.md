@@ -1,6 +1,6 @@
 # YoudaoKadaBlog
 ## 1. 有道卡搭早读博客
-不定期更新推荐阅读文章，详情见<https://github.com/youdaokada/YoudaoKada.github.io>
+不定期更新推荐阅读文章，详情见<https://youdaokada.github.io>
 
 ## 2. 工程初始化
 早读系统由hexo驱动，采用pure主题，并将 `theme/pure` 作为项目的子模块（git submodule）。拉取时使用 `git clone --recursive` 命令, git 就会自动初始化并更新仓库中的每一个子模块。
@@ -17,10 +17,11 @@ git clone --recursive https://github.com/youdaokada/YoudaoKadaBlog.git
 ### 3.1 创建文章
 > 文章按季度进行归档，使用 `hexo new` 的方式来创建文章，完整的命令如下。
 >
-> 运行结束之后，会在2018Q4目录下生成 `前端早读-20181019.md` 文件；或者直接复制之前的文章做修改，然后下一步就可以使用markdown语法开始编辑了。
+> 运行结束之后，会在2019Q3目录下生成 `前端早读-20190821.md` 文件；或者直接复制之前的文章做修改，然后下一步就可以使用markdown语法开始编辑了。
 
 ```
-hexo new post -p /2019Q3/前端早读-20190821
+$ hexo new post -p /path/to/file title
+$ hexo new post -p /2019Q3/前端早读-20190821 前端早读-20190821
 ```
 
 #### 早读样例
@@ -38,6 +39,8 @@ hexo deploy
 ### 3.3 代码推送
 > 不要忘记将文件推送到远端
 ```
+git add 
+git commit -m "XXX"
 git push --recurse-submodules=check
 ```
 
