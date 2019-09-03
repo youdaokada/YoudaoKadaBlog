@@ -35,7 +35,10 @@ $ hexo new post -p /2019Q3/前端早读-20190821 前端早读-20190821
 hexo clean
 hexo generate
 hexo deploy
+// 或直接使用
+npm run publish
 ```
+
 此外，若想在本地运行工程，可以使用下面命令
 ```
 hexo server -p port
@@ -43,7 +46,7 @@ hexo server -p port
 ### 3.3 代码推送
 > 不要忘记将文件推送到远端
 ```
-git add 
+git add
 git commit -m "XXX"
 git push --recurse-submodules=check
 ```
