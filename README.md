@@ -21,7 +21,7 @@ git clone --recursive https://github.com/youdaokada/YoudaoKadaBlog.git
 
 ```
 $ hexo new post -p /path/to/file title
-$ hexo new post -p /2019Q4/前端早读-20191204 前端早读-20191204
+$ hexo new post -p /2019Q4/前端早读-20191230 前端早读-20191230
 ```
 
 #### 早读样例
